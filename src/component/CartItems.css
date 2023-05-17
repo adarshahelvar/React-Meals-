@@ -1,0 +1,24 @@
+.items {
+    display: flex;
+}
+
+.items-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-child-wrap {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 28%;
+    width: 40%;
+}
+
+.grand-total-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-parent {
+    margin-left: 200px !important;
+}

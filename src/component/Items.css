@@ -1,0 +1,57 @@
+.items_parent {
+  margin-top: 250px;
+  width: 1000px;
+}
+
+.elemt {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 49, 49);
+  border: 1px solid yellow;
+}
+
+.elemt:hover {
+  background: linear-gradient(to right, #78f733, #05477d);
+  color: black;
+}
+
+.foodtitle,
+.foodprice,
+.foodDescription {
+  margin-left: 40px;
+}
+
+input {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.bttn {
+  position: absolute;
+  margin-left: 830px;
+  margin-top: 50px;
+  background-color: brown;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.bttn_order {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  background-color: rgb(138, 223, 244);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 25px;
+}
+
+.bttn_order:hover {
+  background-color: #348707;
+  color: #ffffff;
+}
