@@ -34,13 +34,13 @@ let items = [
   {
     key: "m5",
     foodTitle: "Pongal",
-    foodDescription: "Deep-fried wheat flour bread",
+    foodDescription: "Sweet dish made with Rice",
     price: 70.0,
   },
   {
     key: "m6",
     foodTitle: "Lemon Rice",
-    foodDescription: "Deep-fried Rice with Penutes",
+    foodDescription: "Rice with Penutes",
     price: 40.0,
   },
 ];
