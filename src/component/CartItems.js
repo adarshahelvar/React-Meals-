@@ -19,9 +19,6 @@ const CartItems = (props) => {
           </div>
           // console.log(curElm)
         )) : <p>Cart is Empty...</p>}
-        <div className="grand-total-parent">
-          <h5 className="items-child-Total">Grand Total:</h5>
-        </div>
         <div className="ms-5 btn-parent">
           <button className="btn btn-danger ms-5" onClick={props.closeHandler}>
             Close
